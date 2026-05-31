@@ -152,11 +152,11 @@ section{padding:80px 5%}
 
 .transformations{background:var(--dark2)}
 .trans-inner{max-width:1100px;margin:0 auto}
-.trans-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:40px}
-.trans-card{background:var(--dark3);border:1px solid var(--border);border-radius:12px;aspect-ratio:3/4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;cursor:pointer;transition:border-color 0.2s}
-.trans-card:hover{border-color:var(--purple)}
+.trans-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.trans-card{background:var(--dark3);border:1px solid var(--border);border-radius:12px;aspect-ratio:3/4;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:0;cursor:pointer;transition:border-color 0.2s;overflow:hidden}
+.trans-card img{flex:1;width:100%;height:100%;object-fit:cover}
 .trans-placeholder{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,rgba(123,47,190,0.3),rgba(20,184,166,0.3));display:flex;align-items:center;justify-content:center;font-size:22px}
-.trans-label{font-size:12px;color:var(--text-muted);text-align:center;letter-spacing:1px}
+.trans-label{font-size:12px;color:var(--text-muted);text-align:center;letter-spacing:1px;width:100%;padding:8px;background:rgba(0,0,0,0.3)}
 .trans-cta{margin-top:40px;text-align:center}
 
 .reviews{background:var(--dark)}
@@ -687,14 +687,14 @@ footer{background:var(--dark2);border-top:1px solid var(--border);padding:40px 5
     <h2 class="section-title">Transformations</h2>
     <p class="section-sub">Real people. Real results. See what's possible when you commit — your transformation starts today.</p>
     <div class="trans-grid">
-      <div class="trans-card"><img src="transformation-1.jpg" alt="Transformation 1" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 1</div></div>
-      <div class="trans-card"><img src="transformation-2.jpg" alt="Transformation 2" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 2</div></div>
-      <div class="trans-card"><img src="transformation-3.jpg" alt="Transformation 3" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 3</div></div>
-      <div class="trans-card"><img src="transformation-4.jpg" alt="Transformation 4" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 4</div></div>
-      <div class="trans-card"><img src="transformation-5.jpg" alt="Transformation 5" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 5</div></div>
-      <div class="trans-card"><img src="transformation-6.jpg" alt="Transformation 6" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 6</div></div>
-      <div class="trans-card"><img src="transformation-7.jpg" alt="Transformation 7" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 7</div></div>
-      <div class="trans-card"><img src="transformation-8.jpg" alt="Transformation 8" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label">Transformation 8</div></div>
+      <div class="trans-card"><img src="transformation-1.jpg" alt="Transformation 1" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-2.jpg" alt="Transformation 2" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-3.jpg" alt="Transformation 3" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-4.jpg" alt="Transformation 4" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-5.jpg" alt="Transformation 5" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-6.jpg" alt="Transformation 6" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-7.jpg" alt="Transformation 7" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
+      <div class="trans-card"><img src="transformation-8.jpg" alt="Transformation 8" style="width:100%;height:100%;object-fit:cover;border-radius:12px;"><div class="trans-label"></div></div>
     </div>
     <div class="trans-cta">
       <a href="https://wa.me/923037349994?text=Hi!%20I%20want%20to%20start%20my%20transformation%20at%20Activated%20Gym." class="btn-primary" target="_blank">Start Your Transformation</a>
